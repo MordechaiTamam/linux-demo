@@ -1,0 +1,13 @@
+create user:
+useradd -m <USER_NAME>
+Set password: passwd <USER_NAME>
+
+#Create group
+sudo groupadd g1
+
+associate user to group:
+sudo usermod -a -G <GROUP_NAME> <USER_NAME>
+
+# In order to get a certain group members:
+sudo apt-get install members
+members <GROUP_NAME>
