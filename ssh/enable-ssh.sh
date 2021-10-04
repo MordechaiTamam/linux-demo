@@ -1,5 +1,5 @@
 On the guest machine:
-  sudo apt-get install openssh-server
+  sudo apt-get install openssh-server -y
 
 On the VBox manager -> machine settings -> network -> advanced -> port forwarding
 
